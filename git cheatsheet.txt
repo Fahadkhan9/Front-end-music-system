@@ -1,0 +1,12 @@
+touch .gitignore
+git config --global user.name "Fahadkhan9"
+git config --global user.email "fahad96133@gmail.com"
+git init
+git add .
+git commit -m "text"
+git status //just to see
+ssh-keygen -t rsa -b 4096 -C "fahad96133@gmail.com" // key will be generated
+tail <path> // it will not work in our system because of name in 2 parts i think so
+// for countering this go to that path copy key from their 
+git remote add origin <ssh url.git>
+git push origin master
