@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+
+}
+
+header {
+    color: black;
+}
+
+body {
+    background-image: url(Images/bg6.jpg);
+    background-size: cover;
+
+}
+
+.s1 {
+    background-color: lightgray;
+}
+
+#ninjaimg {
+    width: 12%;
+    border-radius: 50%;
+}
+
+#navbar {
+    margin-left: -40%;
+}
+
+#form-control {
+    border-style: none;
+
+}
+
+#Search {
+    border: black solid 2px;
+    width: 30%;
+    border-radius: 20%;
+}
+
+#favourites {
+    color: black;
+}
+
+#sform {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#icon2 {
+    display: inline-block;
+}
+
+.search-bar {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.search-bar input {
+    outline: none;
+    border: none;
+}
+
+.bellicon {
+    margin-left: 40px;
+    display: inline-flex;
+}
+
+.profile {
+    margin-left: 40px;
+    display: inline-flex;
+
+}
+
+#profileimg {
+
+    border-radius: 50%;
+}
+
+.zi {
+    z-index: 1;
+}
+.displayn{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    
+    
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.main{
+    width: 75%;
+}
+.Aside_lists{
+    position: absolute;
+    left: 75%;
+    
+    width: auto;
+}
+
+/* Aside section ************************************************************************/
+
+.sh{
+    font-size: 10px;
+
+}
+.Similar_Artists{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+   
+}
+.pos{
+    position: absolute;
+    left: 15%;
+}
+.Simge{
+    position: relative;
+}
+.listimagelr1 {
+    margin-top: 10px;
+    width: 6rem;
+    margin-left: 3px;
+}
+.Aname{
+    position: Absolute;
+    font-size: 15px;
+    margin-left: 0.5rem;
+    top: 15%;
+}
+.bname{
+    position: Absolute;
+    content: darkgrey;
+    font-size: 12px;
+    margin-left: 0.5rem;
+    top: 35%;
+}
+.dt{
+    position: absolute;
+    top: 12%;
+    left: 60%;
+}
+/* Recently_played ********************************************************************/
+.listimage {
+    width: 9%;
+}
+
+
+.listicons {
+    position: absolute;
+      left: 70%;
+    
+}
+
+.queue {
+    position: relative;
+}
+
+.queueh {
+    display: flex;
+    position: sticky;
+}
+
+.qh {
+    font-size: larger;
+    display: flex;
+}
+
+.bsize {
+    font-size: 1px;
+}
+
+.list {
+    overflow-y: scroll;
+}
+
+.display {
+    width: 167rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cchng {
+    transition: color 0.3s ease-in-out;
+
+}
+
+.cchng:hover {
+    color: pink;
+}
+.rcpi{
+    overflow-y: scroll;
+}
+/* Playbar **************************************************/
+
+.Playbar {
+    background-color: black;
+    display: flex;
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+    justify-content: space-around;
+    color: white;
+}
+
+.p-part {
+    display: flex;
+   
+    margin-left: -14em;
+
+}
+
+.iconp {
+    left: 17%;
+    top: 5%;
+}
+.pslide{
+    position: absolute;
+    top: 60%;
+    width: 20%;
+    left : 40%;
+    color: lightgray;
+}
+.st{
+    font-size: 12px;
+    position: absolute;
+    top: 60%;
+    left: 38%;
+}
+.et{
+    font-size: 12px;
+    position: absolute;
+    top: 60%;
+    left: 61%;
+}
+.m-parti i{
+  padding: 10px;
+}
+.r-parti  {
+    position: absolute;
+    top: 30%;
+    left: 85%
+}
+.r-parti i{
+    margin: 10px;
+}
+.sslide{
+
+    top: 60%;
+    width: 30%;
+    background-color: white;
+    color: white;
+}
+/* main ******************************************************************************/
+.img{
+    width: 19.5rem;
+    position: absolute;
+    stroke-opacity: 0.9;
+   
+}
+.fbox{
+    margin-left: 20px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    width:65rem ;
+    height: 20rem;
+    position: relative;
+    box-shadow:  10px 10px 5px  whitesmoke inset;
+}
+.hcolor{
+    color: White;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+.stype
+{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+.stext{
+    width: 40rem;
+    position: absolute;
+    left: 35%;
+    top:38% ;
+
+}
+.spress{
+    position: absolute;
+    left: 35%;
+    top:70% ;
+    width: 10rem;
+}
+.ntracks{
+    position: absolute;
+   font-size:  12px;
+    left: 36%;
+    top:80% ;
+}
+.flw{
+    position: absolute;
+    left: 65%;
+    top:70% ;
+}
+.element{
+    margin-top: 8px;
+    position: relative;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    width: 65rem;
+    height:  4rem;
+
+}
+.listimages {
+    width: 10%;
+}
+
+.listicona {
+    position: absolute;
+      left: 80%;
+    top: 30%;
+}
+
+.listiconb {
+    position: absolute;
+      left: 89%;
+    top: 30%;
+}

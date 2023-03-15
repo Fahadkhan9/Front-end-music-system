@@ -1,0 +1,528 @@
+/* header */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+
+}
+
+header {
+    color: black;
+}
+
+body {
+    background-image: url(Images/bg6.jpg);
+    background-size: cover;
+
+}
+
+.s1 {
+    background-color: lightgray;
+}
+
+#ninjaimg {
+    width: 12%;
+    border-radius: 50%;
+}
+
+#navbar {
+    margin-left: -40%;
+}
+
+#form-control {
+    border-style: none;
+
+}
+
+#Search {
+    border: black solid 2px;
+    width: 30%;
+    border-radius: 20%;
+}
+
+#favourites {
+    color: black;
+}
+
+#sform {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#icon2 {
+    display: inline-block;
+}
+
+.search-bar {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.search-bar input {
+    outline: none;
+    border: none;
+}
+
+.bellicon {
+    margin-left: 40px;
+    display: inline-flex;
+}
+
+.profile {
+    margin-left: 40px;
+    display: inline-flex;
+
+}
+
+#profileimg {
+
+    border-radius: 50%;
+}
+
+.zi {
+    z-index: 1;
+}
+
+/* aside section ********************************************/
+.listimage {
+    width: 2%;
+}
+
+
+.listicons {
+    position: absolute;
+    left: 13%
+}
+
+.queue {
+    position: relative;
+}
+
+.queueh {
+    display: flex;
+    position: sticky;
+}
+
+.qh {
+    font-size: larger;
+    display: flex;
+}
+
+.bsize {
+    font-size: 1px;
+}
+
+.list {
+    overflow-y: scroll;
+}
+
+.display {
+    width: 167rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cchng {
+    transition: color 0.3s ease-in-out;
+}
+
+.cchng:hover {
+    color: pink;
+}
+
+/* main ******************************************************/
+/* trending***************************************************/
+#main {
+    overflow-y: scroll;
+}
+
+.timage {
+    width: 20rem;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.timage1 {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.timage2 {
+    width: 20rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.t1 {
+    transition: width 0.2s ease-in-out;
+}
+
+.t1:hover {
+    width: 21rem;
+    /* height: 21rem; */
+
+
+}
+
+/* latestrelease ********************************************************/
+.headingm {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.listimagelr {
+    width: 7rem;
+    height: 100%;
+}
+
+.l-release {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+
+
+}
+
+.lreleasebox {
+    width: 45%;
+    height: 100px;
+    margin: 5px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.ldetails {
+    margin: 0;
+    padding: 0;
+    line-height: 0px;
+}
+
+.albumart {
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+
+.albumart i {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    display: none;
+    
+
+}
+
+
+.albumart:hover i {
+    color: white;
+    display: block;
+}
+
+.albumart:hover {
+    opacity: 0.6;
+}
+
+.dt {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#icolor {
+    color: black;
+}
+
+.dcolor {
+    color: white;
+}
+
+.dicon {
+    font-size: large;
+}
+
+.dpcolor {
+    color: black;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+
+/* Artist section********************************************************* */
+.Artistr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Artistp {
+    width: 7rem;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+.Artistn {
+    width: 8rem;
+    border-radius: 50%;
+}
+.Artists{
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.Aname {
+    margin: 10px;
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+.Aname3 {
+    margin: 0px;
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+/* Station */
+#Stations {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Stations {
+    background-color: rgb(2, 2, 48);
+}
+
+.sh {
+    width: 10rem;
+    margin-left: -20px;
+}
+
+.img1 {
+    background-image: url("Images/Music-type1.jpg");
+    background-size: cover;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    opacity: 0.8;
+    position: relative;
+
+}
+
+.img2 {
+    background-image: url("Images/Music-type2.webp");
+    background-size: cover;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    opacity: 0.8;
+    position: relative;
+
+}
+
+.img3 {
+    background-image: url("Images/Music-type3.webp");
+    background-size: cover;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    opacity: 0.8;
+    position: relative;
+
+}
+
+.img4 {
+    background-image: url("Images/Music-type4.jpg");
+    background-size: cover;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    opacity: 0.8;
+    position: relative;
+
+}
+
+.img5 {
+    background-image: url("Images/Music-type8.webp");
+    background-size: cover;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    opacity: 0.8;
+    position: relative;
+
+}
+
+.img6 {
+    background-image: url("Images/Music-type8.jfif");
+    background-size: cover;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    opacity: 0.8;
+    position: relative;
+
+}
+
+.imgcontent {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    color: white;
+    font-size: 1.3rem;
+}
+
+/* Music type */
+#Music_type {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mtype {
+    background-image: url("Images/Music-type5.webp");
+    background-size: cover;
+    border: 1px black solid;
+    width: 20rem;
+    height: 13rem;
+    opacity: 0.8;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.mtype1 {
+    background-image: url("Images/Music-type6.jpg");
+    background-size: cover;
+    border: 1px black solid;
+    width: 20rem;
+    height: 13rem;
+    opacity: 0.8;
+    position: relative;
+    margin-top: 20px;
+}
+
+.mtype2 {
+    background-image: url("Images/Music-type7.jpg");
+    background-size: cover;
+
+    border: 1px black solid;
+    width: 20rem;
+    height: 13rem;
+    opacity: 0.8;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.tn {
+    transition: all ease-in-out 0.5s;
+}
+
+.tn:hover {
+    transform: scale(1.10);
+}
+
+.mimgcontent {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    color: white;
+    font-size: 2rem;
+}
+
+/* Playbar **************************************************/
+
+.Playbar {
+    background-color: black;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    justify-content: space-around;
+    color: white;
+}
+
+.p-part {
+    display: flex;
+    margin-left: -14em;
+
+}
+
+.iconp {
+    left: 17%;
+    top: 5%;
+}
+.pslide{
+    position: absolute;
+    top: 60%;
+    width: 20%;
+    left : 40%;
+    color: lightgray;
+}
+.st{
+    font-size: 12px;
+    position: absolute;
+    top: 60%;
+    left: 38%;
+}
+.et{
+    font-size: 12px;
+    position: absolute;
+    top: 60%;
+    left: 61%;
+}
+.m-parti i{
+  padding: 10px;
+}
+.r-parti  {
+    position: absolute;
+    top: 30%;
+    left: 85%
+}
+.r-parti i{
+    margin: 10px;
+}
+.sslide{
+
+    top: 60%;
+    width: 30%;
+    background-color: white;
+    color: white;
+}
+
+.leelements{
+    position: relative;
+}
+.le {
+    width: 9rem;
+    height: 9rem;
+    
+}
+
+.le1 {
+    width: 12rem;
+    height: 9rem;
+    
+}
+.date{
+    position: absolute;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left: 2%;
+    
+    
+}
